@@ -51,7 +51,7 @@ The Tenderloin, with 1566 thefts, is the safest area on Sunday, while INGLESIDE,
 
 PS: The above chart is the statistics shared by other websites about the top 10 most stolen vehicle brands in the U.S. Come and see if there's any of your car:)
 
-# 4 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
+# 4. Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
 
 <embed src="/pictures/plot.html" width="800" height="300" type="text/html">
 
@@ -61,10 +61,17 @@ By analysing the data in a time series, it is possible to observe the pattern of
 
 Policy recommendations: Based on the analysis of the time patterns, it may be possible to reduce the frequency of both crimes by increasing police patrols late at night, by increasing the enforcement of the law appropriately during the day, by improving traffic management, or by conducting public awareness and education campaigns on weekdays.
 
-# 5 Conclution
+# 5. Conclution
 
 By mapping these crimes to different police districts in San Francisco, we can gain further insight into how certain areas are more likely to be hotspots for vehicle theft and DUI crimes on Sundays. This not only provides valuable safety information for residents and visitors, but also provides data to support law enforcement agencies in developing strategies to deploy resources more effectively, especially on weekends.
 
 In addition, time-series analyses indicate that DUI offences are particularly concentrated during certain hours, which may be correlated with the closing times of bars and restaurants. This finding informs the development of targeted preventive measures, such as increasing patrols during key hours or working with local businesses to promote safe driving awareness.
 
 Overall, through careful data analysis, we are able to not only reveal patterns of criminal activity, but also provide insights into reducing these crimes. By comparing crime data from San Francisco and Copenhagen, we may be able to identify similarities and commonalities in urban crime across different cultural and social contexts. Such cross-city and cross-cultural comparisons may provide valuable insights into global urban governance, prompting urban planners and law enforcement agencies to learn from the experiences of other cities and to work together to improve the safety and quality of life of urban residents.
+
+Contributions：
+
+In charge ：Yaying Cai s232284
+
+Participation in discussions：Xinyi Xu  s232901
+                              Xuluo Cai s233485
