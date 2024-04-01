@@ -27,7 +27,7 @@ Our dataset is provided by the City and County of San Francisco and owned by Ope
     
                             Image source from ABC
 
-![png](/_posts/pictures/output_5_0.png)
+![png](/pictures/output_5_0.png)
 
 ## 2.2 Editorial Critique
 
@@ -37,7 +37,7 @@ In contrast to the obvious pattern of drink driving, the pattern of vehicle thef
 
  ## 3.1 Sundays: DUI and Vehicle Theft Areas Distribution
 
-<embed src="/_posts/pictures/fig_dui.html" width="800" height="600" type="text/html">
+<embed src="/pictures/fig_dui.html" width="800" height="600" type="text/html">
 
 ## 3.2 Editorial Critique
 
@@ -45,7 +45,7 @@ Mission had the highest number of DUIs on Sunday with 186 cases, while the Tende
 
 The Tenderloin, with 1566 thefts, is the safest area on Sunday, while INGLESIDE, with 2846 thefts, is the worst. Factors like population density and parking availability influence burglary rates.
 
-![jpg](/_posts/pictures/output_10_0.jpg)
+![jpg](/pictures/output_10_0.jpg)
 
                             Image source from ABC
 
@@ -53,7 +53,7 @@ PS: The above chart is the statistics shared by other websites about the top 10 
 
 ## 3.3 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
 
-<embed src="/_posts/pictures/plot.html" width="800" height="600" type="text/html">
+<embed src="/pictures/plot.html" width="800" height="600" type="text/html">
 
 # 4 Conclution
 
