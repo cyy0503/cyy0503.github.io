@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "cyy"
+date:   2024-04-01 21:30:39 +0100
+categories: jekyll update
+---
 # Analysis and insights from crime data on DUIs and car thefts in Los Angeles on Sundays
 
 ## 1.1 Page Introduction
