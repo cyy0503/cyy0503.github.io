@@ -20,7 +20,7 @@ In this analysis, we will explore these patterns through three different types o
 
 Our dataset is provided by the City and County of San Francisco and owned by OpenData. It includes historical incident reports for the San Francisco Police Department from 2003 to March 2021, and we focus on 2003-2018, with a focus on 7 years of data analysis. The source dataset covers the public safety domain with tags including San Francisco Police Department, crime, police departments, and crime reports. Since its creation in February 2012, the dataset has been viewed over 225,000 times and downloaded over 70,000 times. The dataset is available under an Open Data Commons public domain dedication and licence. Because this journal primarily analyses data on DUI and car theft cases within it, the source link can be found on the San Francisco government's official website if you need to focus on other crime types.
 
-# 2.1 24-Hour Comparison: Sunday Vehicle Theft vs. DUI Crimes
+# 2. 24-Hour Comparison: Sunday Vehicle Theft vs. DUI Crimes
 
 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2uFt1th9-iwQytfSx2T_oAa_McNrrWBlX80h6h0yjXoEJJzW5" width="700" height="200"/>
     
@@ -28,18 +28,18 @@ Our dataset is provided by the City and County of San Francisco and owned by Ope
 
 ![png](/pictures/output_5_0.png)
 
-## 2.2 Editorial Critique
+Editorial Critique
 
 This polar graph clearly shows the 24-Hour Cycle of DRIVING UNDER THE INFLUENCE Crimes, it is clear that from from 21:00 p.m. until 2:00 a.m. is the peak time for the occurrence of DUIs, with a peak from 23:00 p.m. to close to 1:00 a.m., and the early morning hours from 4:00 a.m. to 13:00 p.m. is the lowest time of the day for the occurrence of crimes, this pattern of crime incidents is most likely due to the fact that the masses, mostly on Sunday evenings, carry out activities such as parties and other gatherings that require alcohol for relaxation, while relaxing their safety awareness of not being able to drink and drive. I think readers if family or friends in the party, drive to participate in the activities, perhaps can politely refuse to drink or in leaving the party, in advance to arrange a good chauffeur, for the sake of personal safety, I hope that we "drive not to drink, drink not to drive".
 
 In contrast to the obvious pattern of drink driving, the pattern of vehicle theft during the 24 hours on Sunday does not seem to be immediately obvious, so let's analyse this time period in detail. After 17:00 p.m. and close to 19:00 p.m. is the highest occurrence of crime during the whole day on Sunday, while after 19:00 p.m. and between 23:00 p.m. is the second highest occurrence of vehicle burglary; between 16:00 p.m. and 17:00 p.m. and between 23:00 p.m. and 0:00 p.m., the number of burglary occurrences is very close to each other; for the daytime hours, between 4:00 a.m. and 8:00 a.m. is the least number of burglary occurrences in the whole day on Sunday. For daytime, 4 am to 8 am is the time of day on Sundays when the least number of burglaries occur. Based on the above analysis, I think readers may be able to reduce the likelihood of their vehicles being stolen by taking a little more time to lock their cars in the garage or checking that their vehicles are fully unlocked after dinner on Sunday nights.
 
- ## 3.1 Sundays: DUI and Vehicle Theft Areas Distribution
+# 3. Sundays: DUI and Vehicle Theft Areas Distribution
 
 <embed src="/pictures/fig_vehicle_theft.html" width="800" height="800" type="text/html">
 <embed src="/pictures/fig_dui.html" width="800" height="800" type="text/html">
 
-## 3.2 Editorial Critique
+ Editorial Critique
 
 Mission had the highest number of DUIs on Sunday with 186 cases, while the Tenderloin had the lowest with 35 cases. Interestingly, the Tenderloin also had the lowest number of vehicle thefts, indicating effective crime prevention measures such as stricter police patrols. Factors like nightlife activity and enforcement efforts influence DUI incidence. For more details, readers can refer to local law enforcement reports or contact LAPD directly.
 
@@ -51,11 +51,17 @@ The Tenderloin, with 1566 thefts, is the safest area on Sunday, while INGLESIDE,
 
 PS: The above chart is the statistics shared by other websites about the top 10 most stolen vehicle brands in the U.S. Come and see if there's any of your car:)
 
-## 3.3 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
+# 4 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
 
 <embed src="/pictures/plot.html" width="800" height="300" type="text/html">
 
-# 4 Conclution
+Editorial Critique
+
+By analysing the data in a time series, it is possible to observe the pattern of occurrence of drink driving and vehicle theft offences over the course of the day. Drink driving is at its peak from 00:00 to 2:00 a.m., then decreases rapidly until 4:00 p.m. The rate of increase in crimes per hour levels off, and then begins to rise sharply from 6:00 p.m. onwards until late at night. As for the temporal pattern of the occurrence of vehicle theft offences, there are significant differences. Throughout the day, the rate of growth is slower from morning to noon, with a small peak in the midday time period, then suddenly plummeting at 1:00 p.m., followed by a high period of the day until late at night.
+
+Policy recommendations: Based on the analysis of the time patterns, it may be possible to reduce the frequency of both crimes by increasing police patrols late at night, by increasing the enforcement of the law appropriately during the day, by improving traffic management, or by conducting public awareness and education campaigns on weekdays.
+
+# 5 Conclution
 
 By mapping these crimes to different police districts in San Francisco, we can gain further insight into how certain areas are more likely to be hotspots for vehicle theft and DUI crimes on Sundays. This not only provides valuable safety information for residents and visitors, but also provides data to support law enforcement agencies in developing strategies to deploy resources more effectively, especially on weekends.
 
