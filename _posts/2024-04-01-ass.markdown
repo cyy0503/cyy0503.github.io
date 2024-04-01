@@ -2,7 +2,7 @@
 layout: post
 title:  "cyy"
 date:   2024-04-01 21:30:39 +0100
-categories: jekyll update
+categories: status
 ---
 # Analysis and insights from crime data on DUIs and car thefts in Los Angeles on Sundays
 
@@ -22,11 +22,11 @@ Our dataset is provided by the City and County of San Francisco and owned by Ope
 
 # 2.1 24-Hour Comparison: Sunday Vehicle Theft vs. DUI Crimes
 
-
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2uFt1th9-iwQytfSx2T_oAa_McNrrWBlX80h6h0yjXoEJJzW5" width="700" height="200" title="Image source from ABC"/>
     
                             Image source from ABC
 
-![png](/_posts/pictures/output_5_0.png)
+![png](/pictures/output_5_0.png)
 
 ## 2.2 Editorial Critique
 
@@ -44,7 +44,7 @@ Mission had the highest number of DUIs on Sunday with 186 cases, while the Tende
 
 The Tenderloin, with 1566 thefts, is the safest area on Sunday, while INGLESIDE, with 2846 thefts, is the worst. Factors like population density and parking availability influence burglary rates.
 
-![jpg](/_posts/pictures/output_10_0.jpg)
+![jpg](/pictures/output_10_0.jpg)
 
                             Image source from ABC
 
@@ -52,4 +52,12 @@ PS: The above chart is the statistics shared by other websites about the top 10 
 
 ## 3.3 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
 
-<embed src="/_posts/pictures/plot.html" width="800" height="600" type="text/html">
+<embed src="/pictures/plot.html" width="800" height="600" type="text/html">
+
+# 4 Conclution
+
+By mapping these crimes to different police districts in San Francisco, we can gain further insight into how certain areas are more likely to be hotspots for vehicle theft and DUI crimes on Sundays. This not only provides valuable safety information for residents and visitors, but also provides data to support law enforcement agencies in developing strategies to deploy resources more effectively, especially on weekends.
+
+In addition, time-series analyses indicate that DUI offences are particularly concentrated during certain hours, which may be correlated with the closing times of bars and restaurants. This finding informs the development of targeted preventive measures, such as increasing patrols during key hours or working with local businesses to promote safe driving awareness.
+
+Overall, through careful data analysis, we are able to not only reveal patterns of criminal activity, but also provide insights into reducing these crimes. By comparing crime data from San Francisco and Copenhagen, we may be able to identify similarities and commonalities in urban crime across different cultural and social contexts. Such cross-city and cross-cultural comparisons may provide valuable insights into global urban governance, prompting urban planners and law enforcement agencies to learn from the experiences of other cities and to work together to improve the safety and quality of life of urban residents.
