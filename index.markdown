@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Analysis and insights from crime data on DUIs and car thefts in Los Angeles on Sundays
 ---
-
-# Analysis and insights from crime data on DUIs and car thefts in Los Angeles on Sundays
 
 ## 1.1 Page Introduction
 
