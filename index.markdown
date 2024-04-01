@@ -36,14 +36,8 @@ In contrast to the obvious pattern of drink driving, the pattern of vehicle thef
 
  ## 3.1 Sundays: DUI and Vehicle Theft Areas Distribution
 
-<div style="display: flex; flex-direction: column;">
-    <div style="margin-bottom: 20px;">
-        <embed src="/pictures/fig_vehicle_theft.html" width="400" height="300" type="text/html">
-    </div>
-    <div>
-        <embed src="/pictures/fig_dui.html" width="400" height="300" type="text/html">
-    </div>
-</div>
+<embed src="/pictures/fig_vehicle_theft.html" width="400" height="300" type="text/html">
+<embed src="/pictures/fig_dui.html" width="400" height="300" type="text/html">
 
 ## 3.2 Editorial Critique
 
@@ -59,7 +53,7 @@ PS: The above chart is the statistics shared by other websites about the top 10 
 
 ## 3.3 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
 
-<embed src="/pictures/plot.html" width="800" height="600" type="text/html">
+<embed src="/pictures/plot.html" width="800" height="300" type="text/html">
 
 # 4 Conclution
 
