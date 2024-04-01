@@ -38,10 +38,10 @@ In contrast to the obvious pattern of drink driving, the pattern of vehicle thef
 
 <div style="display: flex; flex-direction: column;">
     <div style="margin-bottom: 20px;">
-        <iframe src="/pictures/fig_vehicle_theft.html" width="800" height="600"></iframe>
+        <embed src="/pictures/fig_vehicle_theft.html" width="400" height="300" type="text/html">
     </div>
     <div>
-        <iframe src="/pictures/fig_dui.html" width="800" height="600"></iframe>
+        <embed src="/pictures/fig_dui.html" width="400" height="300" type="text/html">
     </div>
 </div>
 
