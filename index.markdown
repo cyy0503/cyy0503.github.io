@@ -36,8 +36,8 @@ In contrast to the obvious pattern of drink driving, the pattern of vehicle thef
 
  ## 3.1 Sundays: DUI and Vehicle Theft Areas Distribution
 
-<embed src="/pictures/fig_vehicle_theft.html" width="400" height="300" type="text/html">
-<embed src="/pictures/fig_dui.html" width="400" height="300" type="text/html">
+<embed src="/pictures/fig_vehicle_theft.html" width="800" height="600" type="text/html">
+<embed src="/pictures/fig_dui.html" width="800" height="600" type="text/html">
 
 ## 3.2 Editorial Critique
 
