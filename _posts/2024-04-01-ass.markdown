@@ -22,7 +22,7 @@ Our dataset is provided by the City and County of San Francisco and owned by Ope
 
 # 2.1 24-Hour Comparison: Sunday Vehicle Theft vs. DUI Crimes
 
- <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2uFt1th9-iwQytfSx2T_oAa_McNrrWBlX80h6h0yjXoEJJzW5" width="700" height="200"/>
+
     
                             Image source from ABC
 
@@ -38,5 +38,18 @@ In contrast to the obvious pattern of drink driving, the pattern of vehicle thef
 
 <embed src="/_posts/pictures/fig_dui.html" width="800" height="600" type="text/html">
 
+## 3.2 Editorial Critique
 
+Mission had the highest number of DUIs on Sunday with 186 cases, while the Tenderloin had the lowest with 35 cases. Interestingly, the Tenderloin also had the lowest number of vehicle thefts, indicating effective crime prevention measures such as stricter police patrols. Factors like nightlife activity and enforcement efforts influence DUI incidence. For more details, readers can refer to local law enforcement reports or contact LAPD directly.
 
+The Tenderloin, with 1566 thefts, is the safest area on Sunday, while INGLESIDE, with 2846 thefts, is the worst. Factors like population density and parking availability influence burglary rates.
+
+![jpg](/_posts/pictures/output_10_0.jpg)
+
+                            Image source from ABC
+
+PS: The above chart is the statistics shared by other websites about the top 10 most stolen vehicle brands in the U.S. Come and see if there's any of your car:)
+
+## 3.3 Temporal Patterns of DUI and Vehicle Theft Crimes Throughout the Day (2010-2017)
+
+<embed src="/_posts/pictures/plot.html" width="800" height="600" type="text/html">
