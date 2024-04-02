@@ -70,7 +70,7 @@ In addition, time-series analyses indicate that DUI offences are particularly co
 
 Overall, through careful data analysis, we are able to not only reveal patterns of criminal activity, but also provide insights into reducing these crimes. By comparing crime data from San Francisco and Copenhagen, we may be able to identify similarities and commonalities in urban crime across different cultural and social contexts. Such cross-city and cross-cultural comparisons may provide valuable insights into global urban governance, prompting urban planners and law enforcement agencies to learn from the experiences of other cities and to work together to improve the safety and quality of life of urban residents.
 
-Contributions：
+### Contributions：
 
 In charge ：Yaying Cai s232284
 
