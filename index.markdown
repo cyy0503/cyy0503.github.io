@@ -152,3 +152,5 @@ There are actually many more factors that can be analysed for urban safety, in a
 
 The visualisations and accompanying explanations allow conclusions to be drawn quickly and intuitively, and provide some basic insights into the data used. However, the analysis is somewhat rudimentary and does not delve into deeper or more specific patterns, nor does it make use of specific statistical tools (e.g. machine learning) to identify behaviours. One interesting aspect that the analysis could be developed into is that it could be combined with some animated videos to illustrate the changes that occur between the three over time.
 
+# Notebook link
+[Explainer notebook](/pictures/project-assignment-b-notebook.ipynb)
