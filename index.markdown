@@ -90,14 +90,14 @@ To investigate this further, we calculated the median time from the start of str
 
 Based on the above information, we then counted the number of crimes in the two weeks before and after the point in time when the street light failure occurred, and found that the number of crimes fluctuated significantly in the 24 hours before and after the failure, and continued to show some smaller fluctuations in the following days. These circumstances reveal that the short-term effects of streetlight failures on criminal activity can be complex, while the long-term effects require further observation and analysis.
 
-<embed src="/pictures/5_daily_crime_numbers_over_28_days.html" width="800" height="400" type="text/html">
+<embed src="/pictures/5_daily_crime_numbers_over_28_days.html" width="800" height="500" type="text/html">
 
 So we continued to stretch the entire cycle and analyzed a trend graph of the number of crimes covering a total of 60 days before and after the streetlight failure and came to the following conclusions:
 
 - Immediate Response to Failure: The trend graphs show a dramatic decrease in crime in the first 24 hours after a streetlight failure. This phenomenon may indicate that, despite the general belief that dark streets increase criminal activity, in the initial period, the lack of light may make offenders feel unsafe or unpredictable, thus inhibiting their criminal intent.
 - Pre-Rehabilitation Dynamics (Days 1-12): In the 12 days or so prior to the streetlight rehabilitation, the number of crimes showed fluctuations with small amplitudes and long intervals between peaks. We gathered information that this may reflect both offenders and residents adapting to the changed lighting conditions. A relatively stable but slightly higher crime rate during this time may also indicate that the community is adjusting its behavioral patterns, such as by adopting alternative security measures or increasing informal surveillance.
 - Post-rehabilitation fluctuations: After the streetlight rehabilitation, we noted an increase in the frequency of crime rate fluctuations, but the overall trend moved toward normalization comparable to pre-failure levels. This suggests that the rehabilitation of streetlights re-establishes a deterrent effect on potential criminal activity and emphasizes the importance of timely and effective maintenance of urban infrastructure.
-<embed src="/pictures/6_daily_crime_numbers_over_60_days.html" width="800" height="400" type="text/html">
+<embed src="/pictures/6_daily_crime_numbers_over_60_days.html" width="800" height="500" type="text/html">
 
 ## 2.2 Analysing the correlation between street lighting and traffic accidents
 
@@ -115,7 +115,7 @@ Ward 2 and Ward 3: These two wards have significantly more streetlights than the
 
 From the analysis above, we do find some relationship between streetlights and crashes, and next we analyse as a whole whether there is some link between the number of crashes when a streetlight failure occurs over the period 2019-2023. When analysing the crime dataset, we have already found that when a streetlight failure occurs in an area, there is not really a particularly significant trend in the number of crime incidents in that area in the 14 days before and after (in 3.1.2 it takes an average of 12 days for a streetlight to complete a report for repair), so we traversed the data on car crashes for 24 hours before and after the occurrence of a streetlight failure for each streetlight, that is, 48h before and after the point at which the streetlight failure occurs Might there be some surprising findings?
 
-<embed src="/pictures/8_daily_crime_numbers_over_28_days.html" width="800" height="400" type="text/html">
+<embed src="/pictures/8_daily_crime_numbers_over_28_days.html" width="800" height="500" type="text/html">
 
 Something amazing happened! Every street light near the car accident in before the failure is regular: we focus on the 14 days before the failure, the statistical graph is always like a sea wave from high to low and then gradually rise, but after the street light reported for repair, the overall trend in the street light failure until the repair of the overall trend in a straight line down, which and the crime of the same node of the time to analyse the same again! We venture to guess: after the street light failure, the street near the street should have taken in the failure out of the set up barricades or reminder signs of early warning, so as to remind passers-by and driving vehicles ahead of the road light failure, so the rate of car accidents dropped, and after the street light resumed normal use, our car accidents are back to the previous pattern of ups and downs like a wave.
 
