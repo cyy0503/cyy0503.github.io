@@ -76,9 +76,9 @@ Surprisingly, the data analysis showed that the total number of crimes in the 24
 
 A closer look at the graph below reveals that while there is an increasing trend in all thefts in the 24 hours following streetlight damage, there is a decrease in the number of other more serious crime types such as ROBBERY and BURGLARY. This finding is thought-provoking and suggests that streetlight failures may affect different types of criminal activity differently. The increase in thefts may be due to the lack of streetlights making it easier for thieves to remain hidden, while the decrease in serious crimes may be related to the fact that offenders are more likely to draw attention to themselves in darker environments.
 
-<embed src="/pictures/3_proportion_crime_types_before_24_hours.html" width="800" height="800" type="text/html">
+<embed src="/pictures/3_proportion_crime_types_before_24_hours.html" width="800" height="600" type="text/html">
 
-<embed src="/pictures/4_proportion_crime_types_after_24_hours.html" width="800" height="800" type="text/html">
+<embed src="/pictures/4_proportion_crime_types_after_24_hours.html" width="800" height="600" type="text/html">
 
 ### 2.1.3 Exploring Long-Term Crime Trends Following Street Light Failures
 
@@ -90,14 +90,14 @@ To investigate this further, we calculated the median time from the start of str
 
 Based on the above information, we then counted the number of crimes in the two weeks before and after the point in time when the street light failure occurred, and found that the number of crimes fluctuated significantly in the 24 hours before and after the failure, and continued to show some smaller fluctuations in the following days. These circumstances reveal that the short-term effects of streetlight failures on criminal activity can be complex, while the long-term effects require further observation and analysis.
 
-<embed src="/pictures/5_daily_crime_numbers_over_28_days.html" width="800" height="800" type="text/html">
+<embed src="/pictures/5_daily_crime_numbers_over_28_days.html" width="800" height="400" type="text/html">
 
 So we continued to stretch the entire cycle and analyzed a trend graph of the number of crimes covering a total of 60 days before and after the streetlight failure and came to the following conclusions:
 
 - Immediate Response to Failure: The trend graphs show a dramatic decrease in crime in the first 24 hours after a streetlight failure. This phenomenon may indicate that, despite the general belief that dark streets increase criminal activity, in the initial period, the lack of light may make offenders feel unsafe or unpredictable, thus inhibiting their criminal intent.
 - Pre-Rehabilitation Dynamics (Days 1-12): In the 12 days or so prior to the streetlight rehabilitation, the number of crimes showed fluctuations with small amplitudes and long intervals between peaks. We gathered information that this may reflect both offenders and residents adapting to the changed lighting conditions. A relatively stable but slightly higher crime rate during this time may also indicate that the community is adjusting its behavioral patterns, such as by adopting alternative security measures or increasing informal surveillance.
 - Post-rehabilitation fluctuations: After the streetlight rehabilitation, we noted an increase in the frequency of crime rate fluctuations, but the overall trend moved toward normalization comparable to pre-failure levels. This suggests that the rehabilitation of streetlights re-establishes a deterrent effect on potential criminal activity and emphasizes the importance of timely and effective maintenance of urban infrastructure.
-<embed src="/pictures/6_daily_crime_numbers_over_60_days.html" width="800" height="800" type="text/html">
+<embed src="/pictures/6_daily_crime_numbers_over_60_days.html" width="800" height="400" type="text/html">
 
 ## 2.2 Analysing the correlation between street lighting and traffic accidents
 
