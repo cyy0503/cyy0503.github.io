@@ -115,7 +115,7 @@ Ward 2 and Ward 3: These two wards have significantly more streetlights than the
 
 From the analysis above, we do find some relationship between streetlights and crashes, and next we analyse as a whole whether there is some link between the number of crashes when a streetlight failure occurs over the period 2019-2023. When analysing the crime dataset, we have already found that when a streetlight failure occurs in an area, there is not really a particularly significant trend in the number of crime incidents in that area in the 14 days before and after (in 3.1.2 it takes an average of 12 days for a streetlight to complete a report for repair), so we traversed the data on car crashes for 24 hours before and after the occurrence of a streetlight failure for each streetlight, that is, 48h before and after the point at which the streetlight failure occurs Might there be some surprising findings?
 
-<embed src="/pictures/8_daily_crime_numbers_over_28_days.html" width="800" height="800" type="text/html">
+<embed src="/pictures/8_daily_crime_numbers_over_28_days.html" width="800" height="400" type="text/html">
 
 Something amazing happened! Every street light near the car accident in before the failure is regular: we focus on the 14 days before the failure, the statistical graph is always like a sea wave from high to low and then gradually rise, but after the street light reported for repair, the overall trend in the street light failure until the repair of the overall trend in a straight line down, which and the crime of the same node of the time to analyse the same again! We venture to guess: after the street light failure, the street near the street should have taken in the failure out of the set up barricades or reminder signs of early warning, so as to remind passers-by and driving vehicles ahead of the road light failure, so the rate of car accidents dropped, and after the street light resumed normal use, our car accidents are back to the previous pattern of ups and downs like a wave.
 
@@ -132,7 +132,7 @@ y contains the target variable ('Accident_Count') from the monthly_accidents Dat
 Training-test split:
 Use the train_test_split function in scikit-learn to split the data into training and test sets. The test set size was specified as 20% of the total data, and a random state was set to ensure reproducibility.
 
-<embed src="/pictures/9_car_accident_predictions_for_the_next_year.html" width="800" height="800" type="text/html">
+<embed src="/pictures/9_car_accident_predictions_for_the_next_year.html" width="1000" height="500" type="text/html">
 
 From this we can roughly see that in the next year there will be more car accidents in the three directions of the Middle East, North and South, and in the summer, there will be more car accidents in all directions. Therefore, we can increase the number of street lights in these areas. Coverage, especially at night and at dusk, improves driver visibility and reduces the occurrence of accidents. Secondly, through the intelligent management system, the brightness and opening time of street lights can be adjusted in real time based on historical accident data and prediction models. In this way, street lights can be managed in traffic-intensive areas and high-incidence periods according to actual needs, improving traffic safety.
 
