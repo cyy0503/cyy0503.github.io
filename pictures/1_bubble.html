@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>pydeck</title>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <script src='https://cdn.jsdelivr.net/npm/@deck.gl/jupyter-widget@~9.0.*/dist/index.js'></script>
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#deck-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#deck-container canvas {
+  z-index: 1;
+  background: none;
+}
+    </style>
+  </head>
+  <body>
+    <div id="deck-container">
+    </div>
+  </body>
+  <script>
+    const container = document.getElementById('deck-container');
+    const jsonInput = {
+  "initialViewState": {
+    "bearing": 0,
+    "latitude": 38.91007899971539,
+    "longitude": -77.01198658780316,
+    "maxZoom": 15,
+    "minZoom": 5,
+    "pitch": 0,
+    "zoom": 11
+  },
+  "layers": [
+    {
+      "@@type": "ScatterplotLayer",
+      "data": [
+        {
+          "WARD": 1,
+          "X": -77.03080767218883,
+          "Y": 38.92392589781027,
+          "color": [
+            225,
+            200,
+            0
+          ],
+          "crime_count": 21770,
+          "light_count": 4735,
+          "radius": 1032.1700441303262
+        },
+        {
+          "WARD": 2,
+          "X": -77.03739624625207,
+          "Y": 38.905945416601874,
+          "color": [
+            255,
+            200,
+            0
+          ],
+          "crime_count": 27787,
+          "light_count": 8845,
+          "radius": 1410.7179023461779
+        },
+        {
+          "WARD": 3,
+          "X": -77.07338827862417,
+          "Y": 38.94038541878166,
+          "color": [
+            141,
+            200,
+            0
+          ],
+          "crime_count": 8570,
+          "light_count": 10465,
+          "radius": 1534.4787388556415
+        },
+        {
+          "WARD": 4,
+          "X": -77.02481367617528,
+          "Y": 38.958113292735945,
+          "color": [
+            180,
+            200,
+            0
+          ],
+          "crime_count": 13905,
+          "light_count": 10921,
+          "radius": 1567.5538268270088
+        },
+        {
+          "WARD": 5,
+          "X": -76.98949032901218,
+          "Y": 38.920123110916215,
+          "color": [
+            237,
+            200,
+            0
+          ],
+          "crime_count": 24205,
+          "light_count": 10439,
+          "radius": 1532.5713686481292
+        },
+        {
+          "WARD": 6,
+          "X": -77.00186057573424,
+          "Y": 38.89288872555551,
+          "color": [
+            215,
+            200,
+            0
+          ],
+          "crime_count": 19898,
+          "light_count": 8288,
+          "radius": 1365.576801208925
+        },
+        {
+          "WARD": 7,
+          "X": -76.94819553342336,
+          "Y": 38.88785174889385,
+          "color": [
+            216,
+            200,
+            0
+          ],
+          "crime_count": 19979,
+          "light_count": 10826,
+          "radius": 1560.7209872363478
+        },
+        {
+          "WARD": 8,
+          "X": -76.98994039101514,
+          "Y": 38.85139838642779,
+          "color": [
+            190,
+            200,
+            0
+          ],
+          "crime_count": 15492,
+          "light_count": 7521,
+          "radius": 1300.8554877464292
+        }
+      ],
+      "filled": true,
+      "getColor": "@@=color",
+      "getPosition": "@@=[X, Y]",
+      "getRadius": "@@=radius",
+      "id": "576badb5-3bc6-4494-ae4a-6215baaa460c",
+      "lineWidthMinPixels": 1,
+      "opacity": 0.8,
+      "pickable": true,
+      "radiusMaxPixels": 100,
+      "radiusMinPixels": 5,
+      "radiusScale": 1,
+      "stroked": true
+    }
+  ],
+  "mapProvider": "carto",
+  "mapStyle": "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+  "views": [
+    {
+      "@@type": "MapView",
+      "controller": true
+    }
+  ]
+};
+    const tooltip = true;
+    const customLibraries = null;
+    const configuration = null;
+
+    const deckInstance = createDeck({
+                  container,
+      jsonInput,
+      tooltip,
+      customLibraries,
+      configuration
+    });
+
+  </script>
+</html>
