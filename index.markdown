@@ -105,7 +105,7 @@ So we continued to stretch the entire cycle and analyzed a trend graph of the nu
 
 By analysing some of the previous perspectives on the crime situation and degree of reins failure, we made some adjustments for the analysis of the relationship between traffic accidents and street lighting, first of all, perspective 1: the streets of Washington are divided into 8 administrative districts, so we first counted the total number of street lights in these administrative districts, and synchronously counted the number of car accidents in these districts, and observed whether there is a relationship
 
-<embed src="/pictures/7_comparison_crash_light_counts_by_ward.png" width="800" height="800" type="text/html">
+![本地图片](/pictures/7_comparison_crash_light_counts_by_ward.png)
 
 This stacked bar graph shows the number of car crashes (in red) and the number of street lights (in blue) in each of the Washington Boroughs (Ward). This graph allows us to analyse the relationship between the frequency of crashes and the number of streetlights in different wards.
 
